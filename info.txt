@@ -35,4 +35,20 @@ quando há necessidade de realizar alterações nessa classe, será difícil mod
 sem comprometer as outras. Toda alteração acaba sendo introduzida com um certo nível de incerteza no sistema
 — principalmente se não existirem testes automatizados!
 
-*God Class — Classe Deus: Na programação orientada a objetos, é uma classe que sabe demais ou faz demais.
+*God Class — Classe Deus: Na programação orientada a objetos, é uma classe que sabe demais ou faz coisas demais.
+
+
+
+2. OCP — Open-Closed Principle:
+Princípio Aberto-Fechado — Objetos ou entidades devem estar abertos para extensão,
+mas fechados para modificação, ou seja,
+quando novos comportamentos e recursos precisam ser adicionados no software,
+devemos estender e não alterar o código fonte original.
+
+OCP preza que uma classe deve estar aberta para extensões e fechada para modificações.
+
+Uma alteação de código ocorre quando, por exemplo: precisamos acessar uma classe já existente para
+incluir ou modificar comportamentos, ou seja incluir ou modificar novos métodos.
+
+Uma expansão requer a necessidade de pensar em como as nossas classes serão capazes de serem extendidas, ao em vez de
+serem modificadas.
