@@ -1,0 +1,38 @@
+https://medium.com/desenvolvendo-com-paixao/o-que-%C3%A9-solid-o-guia-completo-para-voc%C3%AA-entender-os-5-princ%C3%ADpios-da-poo-2b937b3fc530
+https://youtu.be/-ZYybImqtD8?list=PLkbaL16e6UOItxmd8SLC8lP6YqrvAvpnN
+
+Tema: SOLID com Java - Entendendo o conceito e aplicação
+
+O que é S.O.L.I.D. ?
+
+Os 5 princípios para boas práticas de POO.
+
+S — Single Responsiblity Principle (Princípio da responsabilidade única)
+O — Open-Closed Principle (Princípio Aberto-Fechado)
+L — Liskov Substitution Principle (Princípio da substituição de Liskov)
+I — Interface Segregation Principle (Princípio da Segregação da Interface)
+D — Dependency Inversion Principle (Princípio da inversão da dependência)
+
+O que tem de relacionado com Orrientação a Objetos ?
+
+Coesão: Os atributos de classe/objetos devem ter harmonia com a classe em si.
+Encapsulamento: Proteção do código, não somente de acesso, mas de validações e comportamento.
+Acoplamento: Conversa entre classes, o acoplamento correto é o que você chama
+somente o funcionamento, não implementa funções.
+
+
+1. SRP — Single Responsibility Principle:
+Princípio da Responsabilidade Única — Uma classe deve ter um, e somente um, motivo para mudar.
+Esse princípio declara que uma classe deve ser especializada em um
+único assunto e possuir apenas uma responsabilidade dentro do software, ou seja,
+a classe deve ter uma única tarefa ou ação para executar.
+
+Quando implementamos programação orientada a objetos, sem sabermos,
+damos a uma classe mais de uma responsabilidade e acabamos criando classes que fazem de tudo — God Class*.
+
+Num primeiro momento isso pode parecer eficiente, mas como as responsabilidades acabam se misturando,
+quando há necessidade de realizar alterações nessa classe, será difícil modificar uma dessas responsabilidades
+sem comprometer as outras. Toda alteração acaba sendo introduzida com um certo nível de incerteza no sistema
+— principalmente se não existirem testes automatizados!
+
+*God Class — Classe Deus: Na programação orientada a objetos, é uma classe que sabe demais ou faz demais.
