@@ -1,4 +1,5 @@
 https://medium.com/desenvolvendo-com-paixao/o-que-%C3%A9-solid-o-guia-completo-para-voc%C3%AA-entender-os-5-princ%C3%ADpios-da-poo-2b937b3fc530
+
 https://youtu.be/-ZYybImqtD8?list=PLkbaL16e6UOItxmd8SLC8lP6YqrvAvpnN
 
 Tema: SOLID com Java - Entendendo o conceito e aplicação
@@ -52,3 +53,30 @@ incluir ou modificar comportamentos, ou seja incluir ou modificar novos métodos
 
 Uma expansão requer a necessidade de pensar em como as nossas classes serão capazes de serem extendidas, ao em vez de
 serem modificadas.
+
+
+
+
+3. LSP— Liskov Substitution Principle:
+Princípio da substituição de Liskov — Uma classe derivada deve ser substituível por sua classe base.
+
+O princípio da substituição de Liskov foi introduzido por Barbara Liskov em sua conferência “Data abstraction” em 1987.
+A definição formal de Liskov diz que:
+
+Se para cada objeto O1 do tipo S há um objeto O2 do tipo T de forma que,
+para todos os programas P definidos em termos de T,
+o comportamento de P é inalterado quando o1 é substituído por o2 então S é um subtipo de T.
+
+Um exemplo mais simples e de fácil compreensão dessa definição. Seria:
+
+Se Filho é um subtipo de Pai, então os objetos do tipo Pai, em um programa,
+podem ser substituídos pelos objetos de tipo Subtipo sem que seja necessário alterar as propriedades deste programa.
+
+Para não violar o Liskov Substitution Principle, além de estruturar muito bem as suas abstrações,
+em alguns casos, você precisara usar a injeção de dependência e também usar outros princípios do SOLID,
+como por exemplo, o Open-Closed Principle e o Interface Segregation Principle
+
+Seguir o LSP nos permite usar o polimorfismo com mais confiança.
+Podemos chamar nossas classes derivadas referindo-se à sua classe base sem preocupações com resultados inesperados.
+
+
