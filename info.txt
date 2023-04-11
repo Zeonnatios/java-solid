@@ -80,3 +80,33 @@ Seguir o LSP nos permite usar o polimorfismo com mais confiança.
 Podemos chamar nossas classes derivadas referindo-se à sua classe base sem preocupações com resultados inesperados.
 
 
+4. ISP — Interface Segregation Principle:
+Princípio da Segregação da Interface — Uma classe não deve ser forçada a implementar ‘interfaces’,
+e métodos que não irão utilizar.
+
+Esse princípio basicamente diz que, é melhor criar ‘interfaces’ mais específicas
+ao invés de termos uma única ‘interface’ genérica.
+
+Clientes não devem ser forçados a depender de métodos que não utilizam!
+(nesse caso, os clientes são as classes)
+Muitas ‘interfaces’ específicas são melhores que uma única ‘interface’!
+
+
+5. DIP — Dependency Inversion Principle:
+Princípio da Inversão de Dependência — Dependa de abstrações e não de implementações.
+
+De acordo com Uncle Bob, esse princípio pode ser definido da seguinte forma:
+
+    1. Módulos de alto nível não devem depender de módulos de baixo nível. Ambos devem depender da abstração.
+
+    2. Abstrações não devem depender de detalhes. Detalhes devem depender de abstrações.
+
+No contexto da programação orientada a objetos,
+ é comum que as pessoas confundam a Inversão de Dependência com a Injeção de Dependência,
+ porém são coisas distintas, mas que relacionam entre si com um proposito em comum,
+ deixar o código desacoplado.
+
+
+Importante: Inversão de Dependência não é igual a Injeção de Dependência,
+fique ciente disso! A Inversão de Dependência é um princípio (Conceito), e,
+a Injeção de Dependência é um padrão de projeto (Design Pattern).
